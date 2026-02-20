@@ -44,3 +44,6 @@ Thumbs.db
 *.pickle
 pdf_content.txt
 extract_pdf.py
+
+# Streamlit secrets
+.streamlit/secrets.toml
