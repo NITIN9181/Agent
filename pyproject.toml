@@ -1,0 +1,17 @@
+[project]
+name = "pronexus-agent"
+version = "0.1.0"
+description = "ProNexus Autonomous Executive Search Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "crewai[tools]>=0.28.0",
+    "streamlit>=1.28.0",
+    "faker>=19.0.0",
+    "pydantic>=2.0.0",
+    "nest-asyncio>=1.5.0",
+    "openai>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
