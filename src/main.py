@@ -2,10 +2,16 @@
 ProNexus Autonomous Executive Search Agent
 Streamlit Frontend for Google Colab Execution
 """
-import streamlit as st
+import asyncio
 import sys
 import os
+import streamlit as st
 import nest_asyncio
+
+# Force standard asyncio event loop policy instead of uvloop
+# This must happen before any asyncio loops are created in this thread
+if sys.platform != 'win32':
+    asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 
 # Enable nest_asyncio for Colab compatibility
 try:
