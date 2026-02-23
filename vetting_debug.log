@@ -927,3 +927,109 @@ Result String:
 }
 ```
 ==================================================
+
+==================================================
+Candidate: John Smith
+Result String:
+```json
+{
+    "auditor_score": 82,
+    "auditor_notes": "The candidate's resume shows a consistent employment history with some periods of transition. The candidate has worked at three distinct companies in the past ten years, with only one transition that indicated a gap exceeding three months. Below is a breakdown of the dates and durations:\n\n1. Company A (January 2014 - December 2016): 3 Years  \n2. Company B (January 2017 - March 2019): 2 Years  \n3. Company C (June 2019 - Present): 4 Years  \n\nThere is a gap from April 2019 to May 2019 (2 months), which is less than the threshold of three months.\n\nThere is some indication of a potential red flag: the candidate's role at Company A, while indicated as a managerial position, used vague action verbs such as 'assisted' and 'participated in,' which may weaken the perception of ownership of responsibilities. However, the roles at Company B and Company C demonstrate stronger action verbs like 'Led' and 'Revamped,' which suggest a high level of involvement and ownership.\n\nThere do not appear to be overlapping employment dates. Additionally, I did not find any cash-basis accounting inconsistencies specifically pointed out for the candidate’s SaaS experience. Overall, the history seems solid with only minor issues that may need clarification but do not significantly undermine the candidate's stability and reliability in their roles.",
+    "domain_score": 78,
+    "domain_notes": "The candidate's resume demonstrates a solid foundation in accounting, but there are some notable areas of concern regarding the specific competencies required for an Interim CFO role, especially in the context of ASC 606 and SaaS metrics.\n\n**Critical Competency: ASC 606 & Revenue Recognition** - The candidate has not explicitly mentioned experience with ASC 606 or specific deferred revenue management within their roles, which is a critical shortcoming for this position. There is no evidence of experience automating revenue recognition or implementing billing systems such as Zuora or Maxio. The sole reference to cash basis accounting, particularly in relation to a SaaS company with over $5M ARR, raises concerns, although it might be defensible if the role was indeed in an early-stage environment.\n\n**Critical Competency: Unit Economics & SaaS Metrics** - There is a noticeable lack of quantified metrics that are essential in today's SaaS CFO roles. The absence of any mention of Customer Acquisition Cost (CAC), Lifetime Value (LTV), Net Revenue Retention (NRR), or Magic Number signals a potential red flag. While the candidate references revenue growth, it lacks the necessary context of efficiency metrics, which are crucial for modern financial strategy within the SaaS domain.\n\n**Red Flag Logic** - There are no immediate critical failures pertaining to mixed accounting methods or bank reconciliation oversight, but the vague descriptions from their earlier roles do create some apprehension about the candidate's ability to generate connected financial statements accurately. The clarity and specificity of their past roles could be enhanced to present a stronger case for their expertise.\n\nOverall, while the candidate has solid foundational skills in finance and accounting, they currently lack the critical specificity and quantified achievements that are necessary to score higher in the domain expertise for an Interim CFO position within the SaaS industry.",
+    "matchmaker_score": 80,
+    "matchmaker_notes": "The candidate presents a generally strong profile with consistent employment history and foundational accounting skills, but is undermined by a lack of critical experience in ASC 606 and key SaaS metrics. Cultural fit appears promising, but they may require additional training or support to adapt to a more modern SaaS financial environment.",
+    "red_flags": [],
+    "final_recommendation": "Risk Flag"
+}
+```
+==================================================
+
+==================================================
+Candidate: Emily Johnson
+Result String:
+```json
+{
+    "auditor_score": 85,
+    "auditor_notes": "The candidate's employment history shows a solid trajectory with relevant experience in the SaaS sector, though there are a few areas of concern. The candidate held a C-suite role for 17 months, which typically classifies as a 'Short Tenure.' They have one gap exceeding three months between roles, specifically a 5-month gap between Company A and Company B without explanation. The resume also contains vague action verbs such as 'participated in' and 'helped with' in several bullet points, which could indicate a lack of ownership in some of the candidate's contributions. However, there are strong ownership verbs such as 'Led' and 'Built' used in key achievements that counterbalance this to some extent. There are no indications of overlapping employment that could signal conflicts or issues. Finally, a brief review of the roles indicates compliance with cash-basis accounting standards, although more detail on financial reporting practices would bolster confidence. Overall, while there are a few red flags, the candidate still demonstrates a strong capability and has built a reputable career up to this point.",
+    "domain_score": 78,
+    "domain_notes": "The candidate has a commendable background in the SaaS sector, demonstrating relevant experience in key areas such as revenue recognition and overall financial management. However, the assessment of their competencies reveals some areas of concern. There is no explicit mention of ASC 606 or terms like Deferred Revenue or RPO in their experience, which are critical for an Interim CFO role in a SaaS environment. The candidate's mention of applying cash basis accounting for a SaaS company with revenue exceeding $5M ARR raises concerns about their familiarity with the complexities of accrual accounting practices essential for revenue recognition under ASC 606. While the candidate has held significant positions, the absence of specific references to automating revenue recognition or implementing billing systems like Zuora or Maxio suggests limited exposure to these critical tools. In terms of unit economics and SaaS metrics, the candidate's resume includes some contributions towards revenue growth but lacks quantified metrics such as CAC, LTV, NRR, or the Magic Number, which are crucial for evaluating efficiency in SaaS operations. The overall emphasis appears to lean towards general revenue achievements instead of performance efficiency, signaling a potential gap in modern SaaS CFO competencies. Additionally, the candidate has a 5-month employment gap without explanation, and the duration of their C-suite role (17 months) qualifies as a short tenure, which may reflect instability or challenges in retaining senior roles. The presence of vague action verbs, such as 'participated in', further hints at a lack of direct ownership in projects, although the usage of more assertive language in key achievements provides some counterbalance. Overall, despite some solid experience and general capabilities, the lack of specific experience related to ASC 606, revenue automation systems, and relevant SaaS metrics, combined with red flags from their employment history, contribute to a domain expertise score in the lower range of an acceptable candidate profile.",
+    "matchmaker_score": 82,
+    "matchmaker_notes": "The candidate presents a strong foundation in the SaaS industry with relevant leadership experience. However, the combination of red flags related to employment gaps and short tenures, paired with the observed gaps in specific competencies required for the role, suggest a careful consideration is warranted. While they demonstrate potential, the absence of critical knowledge in essential areas raises questions about their readiness for an Interim CFO role. Overall, I recommend a cautious approach with this candidate.",
+    "red_flags": [
+        "5-month gap between employment at Company A and Company B without explanation.",
+        "C-suite role lasted for 17 months, classified as 'Short Tenure'.",
+        "Presence of vague action verbs like 'participated in' in several descriptions."
+    ],
+    "final_recommendation": "Risk Flag"
+}
+```
+==================================================
+
+==================================================
+Candidate: Michael Brown
+Result String:
+```json
+{
+    "auditor_score": 82,
+    "auditor_notes": "The candidate's resume indicates consistent employment with relevant industry experience. The roles demonstrate a reasonable level of progression in responsibility and technical skills. There are two gaps exceeding three months: a seven-month gap after their first position and a four-month gap between their second and third positions. However, both gaps are not sufficiently explained in the resume, which is a point of concern. Additionally, the candidate held a C-suite role for only 15 months without any indication that it was an 'Interim' position, classifying it as a 'Short Tenure.' There are no overlapping employment dates noted. On a positive note, the verbs used in their accomplishments indicate a level of ownership (e.g., 'Led,' 'Restructured') that reflects positively on their capabilities. There were no apparent compliance issues related to cash-basis accounting for the SaaS industry. Overall, while there are some red flags, the candidate maintains a relatively strong employment history.",
+    "domain_score": 78,
+    "domain_notes": "The candidate's experience lacks specific evidence of ASC 606 and revenue recognition best practices, as there are no clear mentions of those terms in the 'Experience' section. This raises concerns about their familiarity with modern revenue recognition standards essential for a SaaS CFO role. Furthermore, the absence of quantifiable metrics in relation to unit economics, such as CAC, LTV, NRR, or Magic Number, is a red flag. Instead, the candidate only mentions general 'revenue growth,' which does not reflect the operational efficiency metrics that modern SaaS firms rely on. Although the resume demonstrates a progression in roles, indicating a foundational understanding, the lack of specifics around automating revenue recognition or implementing billing systems like Zuora or Maxio diminishes their score further. The noted employment gaps and the classification of C-suite experience as 'Short Tenure' also contribute to the overall caution in evaluating this candidate. While they present a solid work history, their gaps in the technical competencies required for an Interim CFO role prevent them from achieving a higher score.",
+    "matchmaker_score": 80,
+    "matchmaker_notes": "The candidate shows a decent overall profile with a combination of solid work history but has critical gaps in the required technical skills needed for an Interim CFO position. While their ownership experience is commendable, the lack of specific SaaS metrics and standards raises concerns about their fit for the technical demands of the role.",
+    "red_flags": [
+        "Two gaps in employment: seven months after first position and four months between second and third positions.",
+        "C-suite role classified as 'Short Tenure' due to being less than 18 months.",
+        "Gaps are not sufficiently explained in the resume.",
+        "Lack of specific evidence of ASC 606 and revenue recognition best practices.",
+        "Absence of quantifiable metrics related to unit economics."
+    ],
+    "final_recommendation": "Risk Flag"
+}
+```
+==================================================
+
+==================================================
+Candidate: Jessica Davis
+Result String:
+```json
+{
+    "auditor_score": 82,
+    "auditor_notes": "The candidate's work history shows a mix of stable and seemingly transitional employment. They have worked across three different companies with varying roles within the last ten years. However, the tenure at the last position, a C-suite role, lasted only 16 months, marking it as a 'Short Tenure'. The candidate's resume also includes an unexplained gap of approximately 4 months between the second and third positions. Overall, while there are some concerns regarding short tenures and employment gaps, nothing suggests fraudulent behavior or significant compliance issues with respect to SaaS operational standards. All roles appear to align with typical professional expectations, and the candidate has provided ownership verbs in their descriptions, indicating a proactive approach to their roles.",
+    "domain_score": 78,
+    "domain_notes": "The candidate demonstrates a good understanding of ASC 606 and revenue recognition principles, having worked in a SaaS environment exceeding $5M ARR. However, their mention of experience with cash basis accounting raises concerns given the role's requirements for handling deferred revenue and RPO comprehensively, which are critical for a scalable SaaS business. There is no explicit mention of automating revenue recognition processes or implementing sophisticated billing systems such as Zuora or Maxio, which would strengthen their credentials significantly.\n\nIn terms of unit economics and SaaS metrics, the candidate's provided metrics focus largely on revenue growth rather than detailed efficiency metrics like CAC, LTV, or NRR. This omission is troubling as modern CFOs are expected to have a sharp focus on these metrics as indicators of company health. The candidate also does not address bank reconciliation oversight, which is a crucial aspect of financial stewardship.\n\nDespite the concerns regarding their accounting background and the lack of quantitative achievement metrics, the candidate still presents a somewhat solid foundation for a modern SaaS CFO role, as evidenced by their proactive approach and ownership verbs in their job descriptions. However, to qualify as an ideal candidate for an Interim CFO role, they will need to address the nuances of revenue operations, aggressive metrics tracking, and demonstrate a more strategic oversight of operational finance.",
+    "matchmaker_score": 80,
+    "matchmaker_notes": "The candidate shows potential with foundational SaaS knowledge and a proactive mindset, but concerns regarding employment stability and certain technical qualifications must be weighed seriously. They present a mix of strengths and weaknesses that may require further evaluation before a final hiring decision.",
+    "red_flags": [
+        "Short Tenure: Last C-suite position lasted 16 months.",
+        "Gap of 4 months between second and third positions.",
+        "Concerns regarding cash basis accounting experience.",
+        "Lack of emphasis on critical SaaS metrics like CAC, LTV, or NRR.",
+        "No mention of advanced billing systems or processes."
+    ],
+    "final_recommendation": "Risk Flag"
+}
+```
+==================================================
+
+==================================================
+Candidate: David Wilson
+Result String:
+```json
+{
+    "auditor_score": 85,
+    "auditor_notes": "The candidate presents a strong professional history with relevant experience in SaaS financial management. Their resume shows consistent upward mobility within their career, and they've taken ownership of their roles with action verbs indicating leadership. All employment dates are listed chronologically without overlaps. The durations of employment also reflect stability, with the exception of a C-suite role that lasted 16 months, which I classified as 'Short Tenure.' No significant gaps in employment exceed 3 months, which shows continuity in their career progression. However, I did notice vague action verbs such as 'assisted with' in one of their earlier roles, which may raise concerns regarding their level of responsibility at that time. Overall, the candidate's background appears solid, with a few minor areas of concern but no major red flags.",
+    "domain_score": 80,
+    "domain_notes": "The candidate has relevant experience in revenue recognition but lacks concrete examples directly related to ASC 606 or explicit mention of deferred revenue and RPO in their experience section. While they have worked in a SaaS environment, there are no specifics noted regarding their experience with automating revenue recognition or implementing billing systems such as Zuora or Maxio, which is a concern considering the critical importance of these competencies for an Interim CFO in a SaaS company. Additionally, there is a mention of cash basis accounting for a SaaS company with over $5M ARR, which raises a red flag as this suggests potential gaps in their understanding of accrual accounting principles vital for managing revenue recognition effectively. Furthermore, the candidate's experience section does not list any quantified metrics related to unit economics or SaaS metrics; they claim responsibility for overall revenue growth but fail to detail specific efficiency metrics like CAC, LTV, or NRR. This lack of clarity indicates a missed opportunity to showcase their impact on financial performance. While they demonstrate solid professional history and upward mobility, the ambiguous language in some descriptions and absence of relevant metrics prevent a higher score. Overall, the candidate shows promise but lacks critical elements that would fully validate their capabilities as a leading Interim CFO for a SaaS organization.",
+    "matchmaker_score": 82.5,
+    "matchmaker_notes": "The candidate demonstrates a solid professional background with good upward mobility and leadership qualities, but there are noticeable deficiencies in their domain knowledge specifically related to SaaS accounting principles. While their experience indicates potential, the lack of critical metrics and specific knowledge of revenue recognition processes presents a concern for the role of Interim CFO. This inconsistency between general suitability and specific relevance indicates a need for careful consideration.",
+    "red_flags": [
+        "C-suite role lasted 16 months - classified as Short Tenure",
+        "Vague action verbs ('assisted with') in earlier roles may limit perceived ownership",
+        "Mention of cash basis accounting for a SaaS company with over $5M ARR raises concerns",
+        "Lack of quantified metrics related to unit economics or SaaS metrics"
+    ],
+    "final_recommendation": "Risk Flag"
+}
+```
+==================================================

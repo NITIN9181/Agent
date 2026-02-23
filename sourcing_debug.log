@@ -891,3 +891,101 @@ Hospitality",
 2026-02-20 15:47:20.716771: DEBUG: candidates_data was: Found
 2026-02-20 15:47:20.717319: DEBUG: Used fallback text parsing: No
 2026-02-20 15:47:20.718136: ================================================================================
+2026-02-23 09:15:39.777835: ================================================================================
+2026-02-23 09:15:39.779375: DEBUG: Sourcing Result Received
+2026-02-23 09:15:39.784779: ================================================================================
+2026-02-23 09:15:39.785578: DEBUG: Result type: <class 'crewai.crews.crew_output.CrewOutput'>
+2026-02-23 09:15:39.786167: DEBUG: Result class name: CrewOutput
+2026-02-23 09:15:39.786804: DEBUG: Available attributes: ['construct', 'copy', 'dict', 'from_orm', 'json', 'json_dict', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parse_file', 'parse_obj', 'parse_raw', 'pydantic', 'raw', 'schema', 'schema_json', 'tasks_output', 'to_dict', 'token_usage', 'update_forward_refs', 'validate']
+2026-02-23 09:15:39.787505: DEBUG: Using result.raw (length: 2110 chars)
+2026-02-23 09:15:39.788123: DEBUG: Result string length: 2110 characters
+2026-02-23 09:15:39.789024: DEBUG: First 500 chars of result:
+```json
+[
+    {
+        "name": "John Smith",
+        "title": "Interim CFO",
+        "location": "San Francisco, CA",
+        "industry": "Technology",
+        "revenue": "$75M",
+        "asc_606_experience": true
+    },
+    {
+        "name": "Emily Johnson",
+        "title": "Interim CFO",
+        "location": "New York, NY",
+        "industry": "Healthcare",
+        "revenue": "$60M",
+        "asc_606_experience": true
+    },
+    {
+        "name": "Michael Brown",
+        "title": "Interim CFO
+2026-02-23 09:15:39.789904: DEBUG: Last 500 chars of result:
+tion",
+        "revenue": "$65M",
+        "asc_606_experience": true
+    },
+    {
+        "name": "Robert Hernandez",
+        "title": "Interim CFO",
+        "location": "Boston, MA",
+        "industry": "Technology",
+        "revenue": "$85M",
+        "asc_606_experience": true
+    },
+    {
+        "name": "Patricia Lee",
+        "title": "Interim CFO",
+        "location": "Phoenix, AZ",
+        "industry": "Hospitality",
+        "revenue": "$50M",
+        "asc_606_experience": true
+    }
+]
+```
+2026-02-23 09:15:39.790561: ================================================================================
+2026-02-23 09:15:39.791217: DEBUG: Attempting Method 1: Markdown code block extraction
+2026-02-23 09:15:39.792515: DEBUG: result_str contains '```': 2 times
+2026-02-23 09:15:39.793184: DEBUG: result_str contains 'json': 1 times
+2026-02-23 09:15:39.794261: DEBUG: Found JSON markdown block
+2026-02-23 09:15:39.795422: DEBUG: Matched content (first 200 chars): [
+    {
+        "name": "John Smith",
+        "title": "Interim CFO",
+        "location": "San Francisco, CA",
+        "industry": "Technology",
+        "revenue": "$75M",
+        "asc_606_experience"
+2026-02-23 09:15:39.798434: DEBUG: Successfully parsed JSON from markdown. Type: <class 'list'>
+2026-02-23 09:15:39.799469: DEBUG: Parsed as list with 10 items
+2026-02-23 09:15:39.800358: Successfully parsed JSON from markdown block - 10 candidates
+2026-02-23 09:15:39.800844: Processing 10 candidate(s)...
+2026-02-23 09:15:39.801385:   Creating candidate 1/10: John Smith
+2026-02-23 09:15:39.801898: Successfully added candidate: John Smith
+2026-02-23 09:15:39.802470:   Creating candidate 2/10: Emily Johnson
+2026-02-23 09:15:39.803054: Successfully added candidate: Emily Johnson
+2026-02-23 09:15:39.803596:   Creating candidate 3/10: Michael Brown
+2026-02-23 09:15:39.804159: Successfully added candidate: Michael Brown
+2026-02-23 09:15:39.804627:   Creating candidate 4/10: Jessica Davis
+2026-02-23 09:15:39.805199: Successfully added candidate: Jessica Davis
+2026-02-23 09:15:39.805791:   Creating candidate 5/10: David Wilson
+2026-02-23 09:15:39.806266: Successfully added candidate: David Wilson
+2026-02-23 09:15:39.806917:   Creating candidate 6/10: Laura Martinez
+2026-02-23 09:15:39.807509: Successfully added candidate: Laura Martinez
+2026-02-23 09:15:39.808169:   Creating candidate 7/10: James Garcia
+2026-02-23 09:15:39.808960: Successfully added candidate: James Garcia
+2026-02-23 09:15:39.809632:   Creating candidate 8/10: Sarah Rodriguez
+2026-02-23 09:15:39.810222: Successfully added candidate: Sarah Rodriguez
+2026-02-23 09:15:39.810834:   Creating candidate 9/10: Robert Hernandez
+2026-02-23 09:15:39.812469: Successfully added candidate: Robert Hernandez
+2026-02-23 09:15:39.813453:   Creating candidate 10/10: Patricia Lee
+2026-02-23 09:15:39.814518: Successfully added candidate: Patricia Lee
+2026-02-23 09:15:39.815623: ================================================================================
+2026-02-23 09:15:39.816387: DEBUG: Sourcing Step Complete
+2026-02-23 09:15:39.817009: ================================================================================
+2026-02-23 09:15:39.817812: DEBUG: Total candidates in pool: 10
+2026-02-23 09:15:39.818484: DEBUG: Candidate names: ['John Smith', 'Emily Johnson', 'Michael Brown', 'Jessica Davis', 'David Wilson', 'Laura Martinez', 'James Garcia', 'Sarah Rodriguez', 'Robert Hernandez', 'Patricia Lee']
+2026-02-23 09:15:39.819010: DEBUG: candidates_data was: Found
+2026-02-23 09:15:39.819644: DEBUG: Used fallback text parsing: No
+2026-02-23 09:15:39.820077: ================================================================================

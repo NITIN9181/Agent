@@ -8,7 +8,10 @@ import os
 import nest_asyncio
 
 # Enable nest_asyncio for Colab compatibility
-nest_asyncio.apply()
+try:
+    nest_asyncio.apply()
+except ValueError:
+    pass # Ignore the uvloop patching error in Streamlit
 
 # Disable CrewAI Telemetry to avoid threading errors in Streamlit
 os.environ["CREWAI_TELEMETRY_OPT_OUT"] = "true"
